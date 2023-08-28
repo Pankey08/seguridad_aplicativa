@@ -1,0 +1,64 @@
+¿Qué es una red?
+ son computadoras interconectadas para la transferencia de datos entre ellas
+
+¿Qué es el modelo TCPIP?
+es el modelo con el que las computadoras se conectan a inernet, IP es por internet protocol
+
+¿Qué es una IP?
+Es la direccion unica de una computadora dentro de una red
+
+¿Qué es el protocolo TCP?
+es un protocolo por el cual las computadoras transmiten datos entre ellas dentro de una red comprobando 
+que los datos se hayan mandaod de forma correcta o los reenvia de ser el caso.
+
+¿Qué es el protocolo HTTP dentro del protocolo HTTP?
+sinceramente no sé, solo tengo entendido que es la manera en la que se envian las peticiones a un servidor web
+
+¿Puerto del protocolo HTTP?
+80
+
+¿Puerto de HTTPS?
+443
+
+¿Cuál es la diferencia entre HTTP Y HTTPS?
+ña difrencia radica en que el HTTPS es un protocolo seguro que envia las peticiones y datos de manera cifrada
+haciendo que no sea visible en texto plano, además de establecer una coneccion segura
+
+¿Qué significa el modelo "cliene servidor"?
+es un modelo de comunicacion para un servidor web, donde el cliente es la conputadora que realiza las peticiones 
+y el servidor es a donde se hacen dichas peticiones.
+
+
+¿Qué es una peticion en HTTP?
+es la solicitud de algún recurso de un servidor web, para la visualización de datos, existen diferentes 
+como POST, GET entre otros
+
+¿Qué es una "response"?
+es la respuesta que da un servidor web a una computadora que hace una peticion, es la entrega de los datos que se
+hayan solicitado
+
+
+¿secciones de una peticion?
+heder
+section 
+y ya.
+
+¿Secciones de una response?
+no recuerdo ninguna
+
+¿el codigo de respuesta 404 y 500 a que se refiere?
+el 404 hace referencia a que no se encontro lo que 
+se solicitó, y el 500 a que no esta disponible
+
+¿lenguajes de programacion para el back end?
+python
+javaScript
+TypeScript
+PHP
+
+¿Lenguajes de programacion para Front end?
+JavaScript 
+python
+
+¿Qué es Burp Suite?
+es una herramienta que funciona como proxy para capturar peticiones a servidores antes de que sean enviados al servidor, entre otras herramientas que incluye, como la visualización de paginas, ataques de peticiones automatizados entre otras.
