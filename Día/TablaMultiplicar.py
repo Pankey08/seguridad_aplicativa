@@ -2,7 +2,6 @@
 
 eMultiplicador = 1
 eNumero = 1
-eResultado = 0
 
 while (eMultiplicador <= 10):
     
