@@ -1,1 +1,0 @@
-cat /etc/passwd | tail -1 | grep "[a-zA-Z0-9]" | cut -d ":" -f1
