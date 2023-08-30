@@ -23,7 +23,7 @@ Diccionario = {
     "Alberto":8
 }
 
-def Promedio(Diccionario):
+def Promedio(pDiccionario):
     ePromedio = 0
     eContador = 0
     for eContador in Diccionario:
@@ -31,14 +31,14 @@ def Promedio(Diccionario):
 
     print("El promedio es:", ePromedio / len(Diccionario))
 
-def CalificacionMasAlta(Diccionario):
+def CalificacionMasAlta(pDiccionario):
 
     print("\nLas personas con la calificacion más alta son:")
     for eContador in Diccionario:
         if int(Diccionario[eContador] == 10):
             print(eContador, end=(", "))
         
-def CalificacionMasBaja(Diccionario):
+def CalificacionMasBaja(pDiccionario):
     
     print("\nLas personas con la calificacion más baja son:")
     for eContador in Diccionario:
