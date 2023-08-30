@@ -26,23 +26,23 @@ Diccionario = {
 def Promedio(pDiccionario):
     ePromedio = 0
     eContador = 0
-    for eContador in Diccionario:
-        ePromedio += int(Diccionario[eContador])
+    for eContador in pDiccionario:
+        ePromedio += int(pDiccionario[eContador])
 
-    print("El promedio es:", ePromedio / len(Diccionario))
+    print("El promedio es:", ePromedio / len(pDiccionario))
 
 def CalificacionMasAlta(pDiccionario):
 
     print("\nLas personas con la calificacion más alta son:")
-    for eContador in Diccionario:
-        if int(Diccionario[eContador] == 10):
+    for eContador in pDiccionario:
+        if int(pDiccionario[eContador] == 10):
             print(eContador, end=(", "))
         
 def CalificacionMasBaja(pDiccionario):
     
     print("\nLas personas con la calificacion más baja son:")
-    for eContador in Diccionario:
-        if int(Diccionario[eContador] <= 5):
+    for eContador in pDiccionario:
+        if int(pDiccionario[eContador] <= 5):
             print(eContador, end=", ")
             
 
