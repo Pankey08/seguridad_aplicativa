@@ -11,7 +11,7 @@ def Promedio(Lista):
     for ePromedio in Lista:
         eContador += ePromedio
     resultado = eContador / len(Lista)
-    print(resultado)
+    print("el promedio es:"resultado)
     
 
 def Reprobados(Lista):
