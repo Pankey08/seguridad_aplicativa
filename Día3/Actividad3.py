@@ -17,11 +17,11 @@ def Promedio(Lista):
 def Reprobados(Lista):
 
     eTotalReprobados = 0
-    eContador = 1
+    eContador = 0
     for eTotalReprobados in Lista:
         if eTotalReprobados == 5:
             eContador +=1
-    print("total de reprobados:",eContador - 1 )
+    print("total de reprobados:",eContador)
 
 Reprobados(Lista)
 
